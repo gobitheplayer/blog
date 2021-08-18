@@ -1,0 +1,23 @@
+.contacts {
+  padding: 30px;
+  display: flex;
+  column-gap: 30px;
+}
+.contacts ul {
+  list-style: none;
+
+}
+.contact {
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid #000;
+  position: relative;
+  border-radius: 5px;
+}
+.contact h2 {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #fff;
+}

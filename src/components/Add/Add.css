@@ -1,0 +1,38 @@
+.add {
+  width: 80%;
+  min-height: 50vh;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.add h2 {
+  position: absolute;
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  top: 0;
+  transform: translateY(-65%);
+  left: 50px;
+}
+.add input {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.add textarea {
+  width: 50%;
+  height: 20vh;
+  resize: none;
+}
+.add button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-100%);
+  bottom: 15px;
+}

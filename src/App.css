@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+
+}
+.nav {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.link {
+  text-decoration: none;
+  margin: 15px;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(243, 169, 32);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(195, 135, 24);
+}

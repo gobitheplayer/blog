@@ -1,0 +1,38 @@
+.about > h1 {
+  color: rgb(243, 169, 32);
+}
+.about img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: -1;
+  filter:brightness(.7)
+}
+.about {
+  padding: 40px;
+}
+.about__goals {
+  margin-top: 40vh;
+  display: flex;
+  justify-content: center;
+}
+.about__goal {
+  position: relative;
+  margin: 40px;
+  padding: 20px;
+  padding-top: 30px;
+  border: 1px solid rgb(243, 169, 32);
+  width: 40%;
+  border-radius: 10px;
+}
+.about__goal h2 {
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}

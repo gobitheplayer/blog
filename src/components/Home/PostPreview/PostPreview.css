@@ -1,0 +1,14 @@
+.postPreview {
+  width: 31%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.postPreview button {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  position: absolute;
+}
